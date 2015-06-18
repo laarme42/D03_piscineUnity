@@ -16,7 +16,9 @@ public class buttonManager : MonoBehaviour {
 	{
 		Application.Quit();
 	}
-	
+	public void Drag(){
+		transform.position = Input.mousePosition;
+	}
 	// Update is called once per frame
 	void Update () {
 	}

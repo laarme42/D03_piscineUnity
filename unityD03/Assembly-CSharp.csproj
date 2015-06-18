@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ButtonManage.cs" />
      <Compile Include="Assets\Scripts\checkpoint.cs" />
      <Compile Include="Assets\Scripts\ennemyScript.cs" />
      <Compile Include="Assets\Scripts\ennemySpawner.cs" />
@@ -59,6 +58,7 @@
      <Compile Include="Assets\Scripts\towerScript.cs" />
      <Compile Include="Assets\Scripts\visualPathCheckpoint.cs" />
      <Compile Include="Assets\Scripts\visualPathSpawner.cs" />
+     <Compile Include="Assets\TowerManager.cs" />
      <Compile Include="Assets\buttonManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
